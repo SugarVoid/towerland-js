@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id=""></div>
+    <div id="container">
+      <div id="stats-area">
+        <div class="stat">
+          Name <span id="stat-day" class="stat-value"></span>
+        </div>
+        <div class="stat">
+          Floor <span id="stat-floor" class="stat-value"></span>
+        </div>
+        <div class="stat">
+          Level <span id="stat-level" class="stat-value"></span>
+        </div>
+        <div class="stat">
+          Health <span id="stat-health" class="stat-value"></span>
+        </div>
+        <div class="stat">
+          Gold <span id="stat-gold" class="stat-value"></span>
+        </div>
+        <div class="stat">
+          Potions <span id="stat-potions" class="stat-value"></span>
+        </div>
+      </div>
+
+      <div class="updates-area" id="updates-area"></div>
+
+      <div id="shop" class="hidden">
+        <div id="prods"></div>
+        <button>Leave shop</button>
+      </div>
+
+      <div id="choice-buttons">
+        <button id="option-1"></button>
+        <button id="option-2"></button>
+        <button id="option-3"></button>
+        <button id="option-4"></button>
+      </div>
+
+      <div id="battle-health">
+        <div id="progress-area">
+          <label id="enenmy-health" for="progress-bar">Enenmy</label>
+          <progress max="100" value="80" id="progress-bar"></progress>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
